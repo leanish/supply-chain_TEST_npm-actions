@@ -10,7 +10,7 @@
     "test": "node --test test/*.test.cjs"
   },
   "dependencies": {
-    "glob": "4.5.3",
+    "glob": "13.0.6",
     "json5": "2.2.1",
     "mimic-fn": "3.1.0",
     "optimist": "0.6.1",
