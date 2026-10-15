@@ -17,7 +17,7 @@
     "semver": "7.7.4",
     "string-width": "4.2.3",
     "strip-ansi": "4.0.0",
-    "wordwrap": "0.0.3"
+    "wordwrap": "1.0.0"
   },
   "devDependencies": {
     "@types/node": "24.1.0",
