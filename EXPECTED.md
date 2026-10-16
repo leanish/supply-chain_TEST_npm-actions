@@ -95,11 +95,12 @@ registry outcomes, not fixed to the illustrative versions below. npm identity,
 source or provenance breaks can block an otherwise safe version.
 
 Gate trials use the same supply-chain commit for inventory and comparison.
-The gate is pinned to supply-chain v0.4.0
-(1c236638041cc479ac067b2a4b6143f0e6c2bace, 2026-10-11). It runs on pull requests,
+The gate is pinned to supply-chain v0.5.2
+(6b99f70cc8fddf35c03a29fb4c6b5ac29e795efc, 2026-10-15). It runs on pull requests,
 pushes to main and manual dispatch. It has no schedule (removed 2026-10-12) and,
-since v0.4.0, no open-PR rescan. The tools are at v0.4.2; tool-only releases don't
-need a gate repin. Earlier trials used v0.3.0
+since v0.4.0, no open-PR rescan. The tools are at v0.5.2; tool-only releases don't
+need a gate repin. Earlier trials used v0.4.0
+(1c236638041cc479ac067b2a4b6143f0e6c2bace, 2026-10-11), v0.3.0
 (20711928aa3074093cdcc8080767c56b1223ae01) and the candidate commit 87b1e9e,
 unreachable since its branch was merged.
 
@@ -270,7 +271,7 @@ Gradle verification (the plan-applied Gradle reference, since 0.3.0) affects onl
 the Gradle fixtures. It doesn't change this repository's npm identity, source,
 advisory, exact computed-lock, floor or cooldown checks. Minimist's identity blocker
 must not become an accepted update just because a new tool version ships. The gate
-is pinned to supply-chain v0.4.0 and the tools are at v0.4.2; record the actual tool
+is pinned to supply-chain v0.5.2 and the tools are at v0.5.2; record the actual tool
 and gate versions independently in every trial. (Earlier text here described the
 0.2.x planned-swap proof and a v0.2.3 boundary; 0.3.0 replaced that proof, and v0.2.3
 was never released.)
