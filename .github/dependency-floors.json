@@ -1,0 +1,1 @@
+{"floors":[{"ecosystem":"npm","package":"yaml","version":"2.8.3","declaredIn":"package.json","selector":[["yaml"]],"purpose":"security","advisories":["GHSA-48c2-rrv3-qjmp"],"reason":"Security fix for GHSA-48c2-rrv3-qjmp","added":"2026-10-24"}]}
