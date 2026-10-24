@@ -11,18 +11,18 @@
   },
   "dependencies": {
     "glob": "4.5.3",
-    "json5": "2.2.1",
+    "json5": "2.2.3",
     "mimic-fn": "3.1.0",
     "optimist": "0.6.1",
-    "semver": "7.7.4",
+    "semver": "7.8.5",
     "string-width": "4.2.3",
     "strip-ansi": "4.0.0",
     "wordwrap": "0.0.3"
   },
   "devDependencies": {
-    "@types/node": "24.1.0",
+    "@types/node": "24.19.2",
     "lint-staged": "15.2.4",
-    "stylelint": "16.17.0",
+    "stylelint": "16.26.1",
     "stylelint-order": "6.0.4"
   }
 }
